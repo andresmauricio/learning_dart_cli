@@ -6,11 +6,13 @@ import 'package:cli/dictionary.dart' as dictionaryDart;
 import 'package:cli/final_and_const.dart' as finalAndCostDart;
 import 'package:cli/fuctions.dart' as funtionsInDart;
 import 'package:cli/arrows_and_lambda_fuctions.dart' as lambdaAndArrowInDart;
+import 'package:cli/params.dart' as paramsInDart;
 void main(List<String> arguments) {
   // typesDart.learningTypeData();
   // collectionDart.collectionDart();
   // dictionaryDart.dictionaryDart();
   // finalAndCostDart.finalAndConst();
   // funtionsInDart.mainFunctions();
-  lambdaAndArrowInDart.mainFuctionsArrowsAndLambdas();
+  // lambdaAndArrowInDart.mainFuctionsArrowsAndLambdas();
+  paramsInDart.mainparamsInsDart();
 }
