@@ -1,5 +1,5 @@
 import 'package:cli/cli.dart' as cli;
-
+import 'package:cli/types.dart' as typesDart;
 void main(List<String> arguments) {
-  print('Hello world: ${cli.calculate()}!');
+  typesDart.learningTypeData();
 }
