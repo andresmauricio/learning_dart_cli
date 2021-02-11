@@ -9,6 +9,7 @@ import 'package:cli/arrows_and_lambda_fuctions.dart' as lambdaAndArrowInDart;
 import 'package:cli/params.dart' as paramsInDart;
 import 'package:cli/if_else_stamenst.dart' as ifElseInDart;
 import 'package:cli/switch_case.dart' as switchCaseInDart;
+import 'package:cli/for.dart' as main_for_in_dart;
 void main(List<String> arguments) {
   // typesDart.learningTypeData();
   // collectionDart.collectionDart();
@@ -18,5 +19,6 @@ void main(List<String> arguments) {
   // lambdaAndArrowInDart.mainFuctionsArrowsAndLambdas();
   // paramsInDart.mainparamsInsDart();
   // ifElseInDart.mainIfElse();
-  switchCaseInDart.mainSwitchCase();
+  // switchCaseInDart.mainSwitchCase();
+  main_for_in_dart.mainFor();
 }
