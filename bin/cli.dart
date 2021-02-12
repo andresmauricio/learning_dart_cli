@@ -12,6 +12,7 @@ import 'package:cli/switch_case.dart' as switchCaseInDart;
 import 'package:cli/for.dart' as main_for_in_dart;
 import 'package:cli/do_while.dart' as main_do_while_in_dart;
 import 'package:cli/POO/class_in_dart.dart' as class_basic_in_dart;
+import 'package:cli/POO/class_whit_constructor.dart' as class_whit_constructor;
 void main(List<String> arguments) {
   // typesDart.learningTypeData();
   // collectionDart.collectionDart();
@@ -24,5 +25,6 @@ void main(List<String> arguments) {
   // switchCaseInDart.mainSwitchCase();
   // main_for_in_dart.mainFor();
   // main_do_while_in_dart.mainDoWhile();
-  class_basic_in_dart.mainClassBasic();
+  // class_basic_in_dart.mainClassBasic();
+  class_whit_constructor.mainClassConstructor();
 }
