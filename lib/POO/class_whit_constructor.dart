@@ -3,11 +3,13 @@ class Employee {
   String name;
   int age;
 
-  Employee(int id, String name, int age) {
-    this.id = id;
-    this.name = name;
-    this.age = age;
-  }
+  Employee(this.id, this.name, this.age);
+
+  // Employee(int id, String name, int age) {
+  //   this.id = id;
+  //   this.name = name;
+  //   this.age = age;
+  // }
 
   bool entryToWork() {
     return true;
